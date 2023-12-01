@@ -15,5 +15,23 @@ describe Solver do
       expect(result).to eql(reversed)
     end
   end
+
+  context '#factorial' do
+    it 'gives the factorial of any given number' do
+      solver = Solver.new
+      expect(solver.factorial(@number)).to eql(40_320)
+    end
+
+    it 'gives the factorial of 0' do
+      solver = Solver.new
+      expect(solver.factorial(0)).to eql(1)
+    end
+
+    it 'gives the factorial of 0' do
+      solver = Solver.new
+      expect{ solver.factorial(-10) }.to output("Input a zero or positive number\n").to_stdout
+    end
+  end
+  
   # ##############################
 end
