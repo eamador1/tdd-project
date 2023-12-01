@@ -14,5 +14,10 @@ class Solver
   end
 
   def fizzbuzz(input_number)
+    return 'fizzbuzz' if (input_number % 3).zero? && (input_number % 5).zero?
+    return 'fizz' if (input_number % 3).zero?
+    return 'buzz' if (input_number % 5).zero?
+
+    input_number.to_s
   end
 end
