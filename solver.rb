@@ -12,4 +12,7 @@ class Solver
       number * factorial(number - 1)
     end
   end
+
+  def fizzbuzz(input_number)
+  end
 end
