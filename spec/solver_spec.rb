@@ -19,7 +19,7 @@ describe Solver do
   context '#factorial' do
     it 'gives the factorial of any given number' do
       solver = Solver.new
-      expect(solver.factorial(@number)).to eql(40_320)
+      expect(solver.factorial(8)).to eql(40_320)
     end
 
     it 'gives the factorial of 0' do
@@ -32,6 +32,6 @@ describe Solver do
       expect{ solver.factorial(-10) }.to output("Input a zero or positive number\n").to_stdout
     end
   end
-  
+
   # ##############################
 end
