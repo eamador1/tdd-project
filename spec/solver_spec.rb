@@ -1,6 +1,5 @@
 require_relative 'spec_helper'
 describe Solver do
-
   before :each do
     @solver = Solver.new
   end
@@ -29,7 +28,7 @@ describe Solver do
 
     it 'gives the factorial of 0' do
       solver = Solver.new
-      expect{ solver.factorial(-10) }.to output("Input a zero or positive number\n").to_stdout
+      expect { solver.factorial(-10) }.to output("Input a zero or positive number\n").to_stdout
     end
   end
 
