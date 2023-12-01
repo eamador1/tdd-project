@@ -4,9 +4,10 @@ context '#reverse' do
   it 'takes a string and returns it reversed' do
     solver = Solver.new
     word = 'hello'
+    reversed = 'olleh'
 
-    reversed = solver.reverse(word)
+    result = solver.reverse(word)
 
-    expect(solver.reverse(word)).to eql(reversed)
+    expect(result).to eql(reversed)
   end
 end

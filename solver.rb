@@ -1,5 +1,5 @@
 class Solver
-  def reverse
+  def reverse(word)
 
   end
 end
