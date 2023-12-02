@@ -17,7 +17,7 @@
 
 
 # 📖 [TDD_PROJECT] <a name="about-project"></a>
-In this project we add unit tests to your codebase, specifically to our classes.
+In this project we implement a class with some methods, but we do it by doing test-driven development (TDD). We write tests first and then the code. This can be verified in our commits history.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -27,8 +27,8 @@ In this project we add unit tests to your codebase, specifically to our classes.
 
 ### Key Features <a name="key-features"></a>
 
-- **[CREATE SPEC FOLDER**
-- **[CREATE TESTS FOR ALL CLASSES]**
+- **[CREATE SPEC FOLDER WHICH CONTAINS TESTS]**
+- **[CREATE CLASS NAMED SOLVER THAT CONTAINS THREE METHODS]**
 
 
 
@@ -47,8 +47,8 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-  mkdir TDD_PROJECT
-  cd TDD-PROJECT
+  mkdir tdd-project
+  cd tdd-projectr
   git clone git@github.com:eamador1/tdd-project.git
 
   ### Install <a name="install">
@@ -59,7 +59,7 @@ Clone this repository to your desired folder:
 
  ### Usage <a name="usage">
 
-To make use of this project on the console, kindly run `ruby main.rb`
+To run the test `rspec spec`
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -88,7 +88,7 @@ To make use of this project on the console, kindly run `ruby main.rb`
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/eamador1/school-library/issues).
+Feel free to check the [issues page](https://github.com/eamador1/tdd-project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
